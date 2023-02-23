@@ -565,9 +565,14 @@ a {
   transition: opacity var(--trn), visibility var(--trn), transform var(--trn);
 }
 .backdrop-window {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   width: 408px;
   height: 576px;
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
   background-color: #fff;
   top: 50%;
   left: 50%;
@@ -596,4 +601,33 @@ a {
   opacity: 0;
   pointer-events: none;
   transform: scale(2);
+}
+/* +++++++++++++++++FORM++++++++++++++++++ */
+.form-descr {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--sec-clr);
+}
+.user-name-styles {
+  width: 100%;
+}
+.user-phone-styles {
+  width: 100%;
+}
+.user-email-styles {
+  width: 100%;
+}
+.user-comment-styles {
+  width: 100%;
+  resize: none;
+}
+label {
+  display: block;
+}
+/* ++++++++++++++++SUBMIT BUTTON++++++++++++++++++ */
+.send-btn {
+  width: 169px;
+  height: 56px;
 }
