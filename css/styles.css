@@ -605,6 +605,7 @@ a {
 /* +++++++++++++++++FORM++++++++++++++++++ */
 .form-descr {
   display: block;
+  margin-bottom: 14px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -612,22 +613,58 @@ a {
 }
 .user-name-styles {
   width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding-left: 38px;
 }
 .user-phone-styles {
   width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding-left: 38px;
 }
 .user-email-styles {
   width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding-left: 38px;
 }
 .user-comment-styles {
   width: 100%;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
   resize: none;
+  margin-bottom: 8px;
 }
 label {
   display: block;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  /* LIGHT SLATE */
+  color: #8e8f99;
 }
 /* ++++++++++++++++SUBMIT BUTTON++++++++++++++++++ */
 .send-btn {
+  padding: 0;
   width: 169px;
   height: 56px;
+  background: var(--logo-main-clr);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.send-btn-txt {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #ffffff;
 }
