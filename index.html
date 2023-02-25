@@ -407,22 +407,42 @@
 
             <form class="form">
 
-                <label for="user_name">Name</label>
-                <input id="user_name" name="user-name" class="user-name-styles" type="text" required>
+                <label for="user_name" class="label-style">Name</label>
+                <div class="backdrop-wraper">
+                    <input id="user_name" name="user-name" class="user-name-styles" type="text" required>
+                    <svg class="backdrop-user-icon">
+                        <use href="./pictures/sprite.svg#icon-backdrop_user"></use>
+                    </svg>
+                </div>
 
-                <label for="user_phone">Phone</label>
-                <input id="user_phone" name="user-phone" class="user-phone-styles" type="tel" required>
 
-                <label for="user_email">Email</label>
-                <input id="user_email" name="user-email" class="user-email-styles" type="email" required>
+                <label for="user_phone" class="label-style">Phone</label>
+                <div class="backdrop-wraper">
+                    <input id="user_phone" name="user-phone" class="user-phone-styles" type="tel" required>
+                    <svg class="backdrop-user-icon">
+                        <use href="./pictures/sprite.svg#icon-backdrop_phone"></use>
+                </div>
 
-                <label for="user_comment">Comment</label>
+                <label for="user_email" class="label-style">Email</label>
+                <div class="backdrop-wraper">
+                    <input id="user_email" name="user-email" class="user-email-styles" type="email" required>
+                    <svg class="backdrop-user-icon">
+                        <use href="./pictures/sprite.svg#icon-backdrop_mail"></use>
+                </div>
+
+
+                <label for="user_comment" class="label-style">Comment</label>
                 <textarea id="user_comment" name="user-comment" class="user-comment-styles" type="text"
                     placeholder="Text input"></textarea>
 
                 <!--  -->
-                <input id="agr_checkbox" name="agrement-checkbox" type="checkbox">
-                <label for="agr_checkbox">I accept the terms and conditions of the Privacy Policy</label>
+                <input id="agr_checkbox" name="agrement-checkbox" type="checkbox" required
+                    class="checkbox-input visually-hidden">
+                <label for="agr_checkbox" class="label-style checkbox-borders">I accept the terms and conditions of the
+                    &nbsp;
+                    <a href="#" class="policy-design">Privacy Policy</a>
+
+                </label>
 
                 <button type="submit" class="send-btn">
                     <p class="send-btn-txt">Send</p>
