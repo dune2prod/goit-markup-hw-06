@@ -1,1 +1,1 @@
-# goit-markup-hw-7 (initial1)
+# goit-markup-hw-6
